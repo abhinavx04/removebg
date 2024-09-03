@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>removebg</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-left">
+                <div class="navbar-logo">
+                    <i class="fa-solid fa-layer-group"></i>
+                </div>
+                <h3 id="name2"><b id="name1">remove</b>bg</h3>
+            </div>
+            <div class="navbar-right">
+                <img src="ad70b0f8-1431-410e-8247-ad78ff89756c.png" class="liftofsign" alt="Lift-off Sign">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1><b>Remove Image</b><br><b>Background</b></h1>
+            <p>100% Automatically and Free</p>
+        </section>
+        <section class="upload">
+            <div class="upload-box">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <p>Drag and drop image here</p>
+                <p>Or</p>
+                <input type="file" id="imageInput" accept="image/*" hidden capture/>
+                <label for="imageInput" class="select-image">Select Image</label>
+                <button class="upload-button" onclick="imageUpload()">Upload</button>
+                <button class="download" onclick="downloadFile()">Download</button>
+                <button class="toggle-brush" onclick="toggleBrush()">Toggle Brush</button>
+                <canvas id="canvas"></canvas>
+            </div>
+        </section>
+    </main>
+    <img src="" alt="" id="image">
+    <script src="index.js"></script>
+</body>
+</html>

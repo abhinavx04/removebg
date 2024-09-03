@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 5px solid #ddd;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    color: #4c5964;
+    margin-right: 10px;
+}
+
+.navbar-logo i {
+    font-size: 30px;
+}
+
+#name1 {
+    color: #4c5964;
+    font-size: 35px;
+}
+
+#name2 {
+    color: #bfc3c6;
+    font-size: 35px;
+}
+
+.liftofsign {
+    width: 200px;
+    height: auto;
+    background-color: white;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.intro {
+    text-align: left;
+    flex: 1;
+}
+
+.intro h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+}
+
+.upload {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.upload-box {
+    background-color: #e0e7ff;
+    border-radius: 8px;
+    padding: 60px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.upload-box i {
+    font-size: 56px;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+.upload-box p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.upload-box button, .upload-box .select-image {
+    background-color: #1e3a8a;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.upload-box button:hover, .upload-box .select-image:hover {
+    background-color: #374151;
+}
+
+.upload-box .select-image {
+    display: inline-block;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #1e3a8a;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.toggle-brush {
+    background-color: #10b981;
+    margin-top: 20px;
+}
+
+.toggle-brush:hover {
+    background-color: #059669;
+}
